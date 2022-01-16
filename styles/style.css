@@ -1,7 +1,35 @@
+body{font-family: 'Hammersmith One', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        background-color: #F3F1FF;}
+main{display: flex;
+     justify-content: center;}
+
+.container{background-color: #ffffff;
+           width:872px;
+           padding:30px;}
+.section-title{color:rgb(80, 80, 240);
+               font-size: 24px;
+               margin-top:3px;}
+.top-players{margin-bottom:px;}
 .players{display: grid;
          /* grid-template-columns: repeat(3,1fr); */
-         grid-template-columns: 1fr 1fr 1fr;}
+         grid-template-columns: 1fr 1fr 1fr;
+         grid-row-gap:30px;}
 .player{display:flex;
         align-items:center;}
+.player-name{padding:16px;
+             font-size: 18px;}
 .player img{width:56px;
             height:56px;}
+/* Top blogs styles */
+.blog{display:flex;}
+.blog .thumbnail img{width: 177px;
+                     height:117px;}
+.blog-info{margin-left:16px;}
+.blog-title{font-size:20px;}
+.author{color:#9f9f9f;
+        font-size:16px;}
+.author a{text-decoration: none;
+          color:#2f9fef;
+          font-size:16px;
+        }
